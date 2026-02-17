@@ -37,12 +37,38 @@ nav a:hover {
 
 body {
     background-color: rgb(210, 255, 241);
+    
 }
+
+    #container {
+    position: relative;
+    height: 96vh;
+    padding: 10px;
+    background-color: purple;
+    
+    }
+
+    #conteudo {
+        
+        position: absolute;
+        height: 200px;
+        width: 400px;
+        background-color: yellow;
+        
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+        
+    }
+
 
 main {
     padding: 20px;
     background-color: blue;
     color: rgb(0, 0, 0);
+    
+    
 }
 
 h1 {
